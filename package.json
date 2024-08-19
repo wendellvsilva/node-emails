@@ -1,7 +1,7 @@
 {
-  "name": "curso-nodejs-dicasparadevs",
+  "name": "nodeJS",
   "version": "1.0.0",
-  "description": "Curso de Node.js",
+  "description": "nodeJS",
   "main": "index.js",
   "scripts": {
     "start:dev": "nodemon index.js"
