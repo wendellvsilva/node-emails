@@ -14,3 +14,4 @@ console.log(path.parse(__filename));
 
 // Juntar caminhos de arquivos
 console.log(path.join(__dirname, "test", "test.html"));
+z

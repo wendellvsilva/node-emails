@@ -11,12 +11,12 @@ const server = http.createServer((req, res) => {
   if (req.url === "/users") {
     const users = [
       {
-        name: "Wendell Silva",
-        email: "Wendell@silsil.com",
+        name: "John Doe",
+        email: "john@doe.com",
       },
       {
-        name: "Vini Wendell",
-        email: "vini@sil.com",
+        name: "Jane Doe",
+        email: "jane@doe.com",
       },
     ];
 
