@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connectToDatabase = async () => {
   await mongoose.connect(
-    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.ejntg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`,
+    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.ejntg.mongodb.net/database?retryWrites=true&w=majority&appName=Cluster0`,
     (error) => {
       if (error) {
         return console.log(
